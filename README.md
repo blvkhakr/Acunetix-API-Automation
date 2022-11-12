@@ -3,6 +3,7 @@ Just a bunch of scripts for Acunetix automation ranging from downloading discove
 
 ### acunetix_csv_discovery_dump.py  ### 
 A script that makes an API call to Acunetix pulling down all the domains from the discovery, exports it into a .csv file. The script goes a little further and combines the domains into urls.
+
  ***NEXT STEPS:*** 
   - [ ] Automatically run scripts on monthly basis (figure out a day)
   - [ ] Remvoe old domains and archive them in txt file to validate w/ teams

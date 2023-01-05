@@ -1,14 +1,11 @@
 # Acunetix-API-Automation
 Just a bunch of scripts for Acunetix automation ranging from downloading discovery data to running scans.
 
-### discovery.py  ### 
-A script that makes an API call to Acunetix pulling down all the domains from the discovery, exports it into a .csv file. The script goes a little further and combines the domains into urls.
+### main.py  ### 
+Runs the main script and imports issues and discovery modules
 
- ***NEXT STEPS:*** 
-  - [ ] Automatically run scripts on monthly basis (figure out a day)
-  - [ ] Remvoe old domains and archive them in txt file to validate w/ teams
-  - [ ] Ensure all domains have an IP address associated if not look it up and populate column with IP addresses
-    - [ ] check to see what IP addresses are active
+### discovery.py  ### 
+A module that makes an API call to Acunetix pulling down all the domains from the discovery, exports it into a .csv file. The script goes a little further and combines the domains into urls.
 
 ### issues.py  ### 
-A script that makes an API call to Acunetix pulling down all the domains from the discovery, exports it into a .csv file. The script goes a little further and combines the domains into urls.
+A module that pulls down all the issues for specific websites/groups.
